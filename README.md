@@ -1,58 +1,25 @@
-# 🚀 Project Nexus - ProDev Frontend Documentation
+# Car Rental Platform
 
-## 📌 Overview
+A full-stack car rental platform built with **Next.js** (via Vite), **MongoDB Atlas**, and modern web technologies.  
+This application allows users to browse available cars, view details, and book rentals online.
 
-This repository serves as a central hub for documenting my journey and key learnings from the **ProDev Frontend Engineering Program**.  
-It includes tools, concepts, and challenges faced while building projects using modern frontend technologies.
+## Features
+- 🚗 **Browse Cars** – View a list of available cars with images, specifications, and rental prices.
+- 🔍 **Search & Filters** – Search by car model, brand, or features.
+- 📄 **Car Details Page** – View detailed information about each car.
+- 📅 **Booking System** – Rent a car for specific dates with price calculation.
+- 🛠 **Admin Dashboard** – Manage cars, bookings, and customers.
+- 📱 **Responsive Design** – Works on mobile, tablet, and desktop.
 
----
+## Tech Stack
+- **Frontend:** Next.js (with Vite), Tailwind CSS
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB Atlas
+- **Authentication:** JWT / NextAuth.js
+- **Deployment:** Vercel (frontend) & Render/Heroku (backend)
 
-## 🧠 Major Learnings
-
-### 🔧 Technologies Used
-
-- **Next.js** – React-based framework for SSR & routing
-- **TailwindCSS** – Utility-first CSS framework
-- **TypeScript** – Type-safe JavaScript
-- **GraphQL** – API query language
-- **PWA** – Progressive Web Apps
-- **React Native (Mobile Dev)** – Cross-platform mobile app development
-- **System Design & Architecture**
-
----
-
-### 💥 Challenges & Solutions
-
-| Challenge                               | Solution                                              |
-| --------------------------------------- | ----------------------------------------------------- |
-| Understanding SSR vs CSR in Next.js     | Used hybrid rendering techniques with dynamic imports |
-| Styling consistency across screen sizes | Employed Tailwind responsive design classes           |
-| Type errors in larger apps              | Adopted strict TS interfaces and reusable types       |
-| API integration issues                  | Used Axios with robust error handling and retry logic |
-
----
-
-### ✅ Best Practices & Takeaways
-
-- Modular folder structure (Components, Pages, Services)
-- Custom hooks for code reuse
-- Mobile-first & accessible design
-- Git & GitHub for version control and collaboration
-- Documentation-first mindset
-- Testing with confidence (unit tests + integration tests)
-
----
-
-## 🤝 Collaboration & Community
-
-I collaborated with fellow **Backend ProDev learners** to integrate RESTful and GraphQL APIs into frontend applications.
-
-We shared ideas and resources in the official **#ProDevProjectNexus** Discord channel.
-
----
-
-## 🏁 Conclusion
-
-This journey through ProDev was not just about learning tools — but about learning how to learn, collaborate, and build real-world applications efficiently.
-
-✨ _Looking forward to building even more amazing things!_
+## Installation
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/car-rental-platform.git
+   cd car-rental-platform
